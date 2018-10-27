@@ -1,0 +1,15 @@
+- name: checking
+  hosts: all
+  roles:
+    - disable_unused_FS
+    - Additional_Process_hardening
+    - Special_Purpose_Services
+    - ssh 
+    - network_conf
+    - Logging_Auditing
+    - Configure_logging
+    - Configure_cron
+    - Configure_PAM
+    - User_Account_Environment
+    - AIDE
+    
